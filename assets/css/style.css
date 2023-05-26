@@ -478,6 +478,14 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.resume .publication .resume-item h4 {
+  color: #1f5297;
+}
+
+.resume .publication .resume-item h4 :hover{
+  color: #71b9f5;
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -535,6 +543,7 @@ section {
   background: #fff;
   border: 2px solid #1f5297;
 }
+
 
 /*--------------------------------------------------------------
 # Portfolio
