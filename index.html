@@ -75,6 +75,16 @@
 
         <nav id="navbar" class="nav-menu navbar">
             <ul>
+                <li class="set-call">
+                <!-- Calendly link widget begin -->
+                <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+                <!-- Calendly link widget end -->
+                <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/matias-aiskovich/30min'});return false;" class="nav-link">
+                    <i class="bx bx-phone-call"></i><span>Set Up A Free Consult</span></a>
+                </a>
+                </li>
                 <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>
                 </li>
                 <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
@@ -414,6 +424,7 @@
                             <li class="list-group-item">Hugging Face</li>
                             <li class="list-group-item">Natural Language Toolkit (NLTK)</li>
                             <li class="list-group-item">Spacy</li>
+                            <li class="list-group-item">LangChain</li>
                         </ul>
                     </div>
                 </div>
@@ -1093,6 +1104,11 @@
                             <h4>Email:</h4>
                             <p>matias.aiskovich@gmail.com</p>
                         </div></a>
+                        <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/matias-aiskovich/30min'});return false;" class="nav-link">
+                        <div class="set-call-contact">
+                            <i class="bi bi-envelope"></i>
+                            <h4>Set up a free consult</h4>
+                        </div></a>
 
 
                         <div class="social-links-contact mt-3 text-center">
@@ -1121,7 +1137,6 @@
 
     </div>
 </footer><!-- End  Footer -->
-
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
         class="bi bi-arrow-up-short"></i></a>
 

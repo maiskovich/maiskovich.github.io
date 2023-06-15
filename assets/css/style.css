@@ -933,9 +933,14 @@ section {
 .contact .info .address:hover i,
 .contact .info .phone:hover i ,
 .contact .info .linkedin:hover i ,
-.contact .info .github:hover i {
+.contact .info .github:hover i ,
+.contact .info .set-call-contact:hover i{
   background: #149ddd;
   color: #fff;
+}
+
+.contact .info :hover h4{
+  color: #149ddd !important;
 }
 
 .contact .php-email-form {
@@ -1127,4 +1132,32 @@ section {
 .skills_title{
   font-size: 18px; font-weight: bold;
   color: #173b6c;
+}
+
+.set-call,
+.set-call span,
+.set-call i{
+  color: white !important;
+  background-color: #B13328;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.set-call li:hover>a ,
+.set-call li:hover>span,
+.set-call :hover>span{
+  text-decoration: none;
+  color: black !important;
+}
+
+.set-call a:hover i,
+.set-call .active i,
+.set-call .active:focus i,
+.set-call li:hover>a i ,
+.set-call span:hover{
+  color: black !important;
+}
+
+.set-call-contact{
+  text-transform: uppercase;
 }
